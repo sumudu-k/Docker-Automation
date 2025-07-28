@@ -3,6 +3,7 @@ var app = express();
 
 app.get("/", function (req, res) {
   res.send('{ "response": "Hello, I am Sumudu Kulathunga" }');
+  res.send('{ "response": "Docker automation with GitHub Actions" }');
 });
 
 //listen to port 3000 by default
