@@ -1,6 +1,6 @@
-# CI/CD Pipeline with Docker and Github Actions
+# 🔰 CI/CD Pipeline with Docker and Github Actions
 
-Here is a comprehensive image of what we are going to implement.
+#### Here is a comprehensive image of what we are going to implement.
 
 ![Untitled-2024-10-21-0950](https://github.com/user-attachments/assets/9fc455cb-3067-4fb0-b4db-9df2962a2d60)
 
@@ -8,7 +8,7 @@ I am trying to use github actions to automate docker builds when a trigger to ma
 
 Therefore I have write the github workflow file like below.
 
-## How to Start
+## 🚀 How to Start
 1. Clone this repository.
 2. Run ```npm install``` at the directory of ```nodeapp``` 
 3. Run ```node index.js``` to test the project.
@@ -16,7 +16,7 @@ Therefore I have write the github workflow file like below.
 5. Then run and test it locally ```docker run -d -p 3000:3000 node-app```
 6. Then inspect the ```build.yaml``` file and make sure to set DOCKERHUB_USERNAME and DOCKERHUB_TOKEN in the secrets section of github project.
 7. Make sure to create the token by logging at dokerhub and replace the DOCKERHUB_TOKEN by it.
-8. Finally replace the ```kalharacodes/node-app``` with relavant to your repository created in dockerhub.
+8. Finally replace the ```sumudu21/node-app``` with relavant to your repository created in dockerhub.
 9. Push the code to github and check for status!
 
 
@@ -55,5 +55,4 @@ jobs:
                 {DockerHubUserName/repoName}:latest
 ```
 
-Feel free to play and learn github actions. Explore your own journey!
-A project by Tharindu Kalhara
+#### Feel free to play and learn github actions. Explore your own journey!
